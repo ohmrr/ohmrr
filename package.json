@@ -11,9 +11,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "update": "node src/index.js"
+    "build": "tsc",
+    "update": "node dist/index.js"
   },
   "dependencies": {
     "axios": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "typescript": "^4.5.5"
   }
 }
