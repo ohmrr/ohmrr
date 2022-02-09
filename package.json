@@ -1,0 +1,19 @@
+{
+  "name": "ohmrrr",
+  "version": "1.0.0",
+  "description": "All about me and my GitHub stats.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ohmrrr/ohmrrr"
+  },
+  "author": "Ohmrrr",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "update": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
