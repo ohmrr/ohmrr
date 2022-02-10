@@ -1,11 +1,13 @@
+import { writeFileSync } from 'fs';
+import fetchData from './fetchData';
 import * as path from 'path';
-import * as fs from 'fs';
-import fetchUserData from './fetchUserData';
 
-async function main() {
-  const data = await fetchUserData();
+const readMe = path.join(__dirname, '..', 'README.md');
 
-  console.log(data);
+const updateFile = async () => {
+  const data = await fetchData('https://api.github.com/users/Ohmrrr');
+
+  writeFileSync(readMe, "testing");
 }
 
-main();
+updateFile();
