@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "axios": "^0.25.0",
-    "dedent": "^0.7.0"
+    "dedent": "^0.7.0",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "@types/dedent": "^0.7.0",
