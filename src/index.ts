@@ -14,6 +14,7 @@ const updateFile = async () => {
   const Ohmrrr = {
     name: 'Omar',
     bio: ${data.bio},
+    
 
   };\`\`\``;
 
