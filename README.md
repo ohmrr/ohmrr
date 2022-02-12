@@ -15,10 +15,10 @@ Hopefully there'll be more in the future.
 
 ```js
 const Ohmrrr = {
-  name: Omar,
+  name: "Omar",
   bio: null,
   followers: 1,
   following: 3,
-  created: 08/19/21,
+  created: "08/19/21",
 };
 ```

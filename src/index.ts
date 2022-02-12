@@ -1,6 +1,5 @@
 import fetchData from './fetchData';
 import dedent from 'dedent';
-import moment from 'moment';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -30,7 +29,7 @@ const updateFile = async () => {
     bio: ${data.bio},
     followers: ${data.followers},
     following: ${data.following},
-    created: "${moment(data.created_at).format('MM/DD/YY')}",
+    created: "08/19/21",
   };
   \`\`\``;
 
