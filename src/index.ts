@@ -16,21 +16,21 @@ const updateFile = async () => {
 
   - [eTOA-001](https://github.com/Ohmrrr/etoa) - a Discord bot made with Discord.js v13. 
   
-  [![eTOA](https://github-readme-stats.vercel.app/api/pin/?username=Ohmrrr&repo=etoa&show_owner=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+  [![eTOA](https://github-readme-stats.vercel.app/api/pin/?username=Ohmrrr&repo=etoa&show_owner=true&theme=dark)](https://github.com/Ohmrrr/etoa)
 
   Hopefully there'll be more in the future.
 
   ## My Stats
 
-  [![My Stats](https://github-readme-stats.vercel.app/api?username=Ohmrrr&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+  [![My Stats](https://github-readme-stats.vercel.app/api?username=Ohmrrr&theme=dark)](https://github.com/Ohmrrr)
   
   \`\`\`js
   const Ohmrrr = {
-    name: ${data.name},
+    name: "${data.name}",
     bio: ${data.bio},
     followers: ${data.followers},
     following: ${data.following},
-    created: ${moment(data.created_at).format('MM/DD/YY')},
+    created: "${moment(data.created_at).format('MM/DD/YY')}",
   };
   \`\`\``;
 
