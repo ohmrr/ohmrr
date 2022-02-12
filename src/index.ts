@@ -13,9 +13,9 @@ const updateFile = async () => {
   I'm slightly new to GitHub but I'm on here to improve my skills and share my work.
   I primarily use JavaScript and TypeScript, but I'm still learning. So far, I've worked on:
 
-  - [eTOA-001](https://github.com/Ohmrrr/etoa) - a Discord bot made with Discord.js v13. 
+  - [eTOA-001](https://github.com/Ohmrrr/etoa-old) - a Discord bot made with Discord.js v13. 
   
-  [![eTOA](https://github-readme-stats.vercel.app/api/pin/?username=Ohmrrr&repo=etoa&show_owner=true&theme=dark)](https://github.com/Ohmrrr/etoa)
+  [![eTOA](https://github-readme-stats.vercel.app/api/pin/?username=Ohmrrr&repo=etoa-old&show_owner=true&theme=dark)](https://github.com/Ohmrrr/etoa)
 
   Hopefully there'll be more in the future.
 
