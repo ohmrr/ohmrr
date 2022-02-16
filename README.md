@@ -29,10 +29,10 @@ const Ohmrrr = {
   name: 'Omar',
   bio: null,
   repositories: 3,
-  totalStargazers: 2,
-  stars: 12,
+  totalStars: 2,
+  starredRepos: 12,
   followers: 1,
   following: 3,
-  created: '08/19/21',
+  created: '08/19/21'
 };
 ```

@@ -2,7 +2,6 @@ import fetchData from './fetchData';
 import { GitUser } from './Interfaces/GitUser';
 import { GitRepo } from './Interfaces/GitRepo';
 import dedent from 'dedent';
-import moment from 'moment';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -19,11 +18,11 @@ const updateFile = async () => {
     'https://api.github.com/users/Ohmrrr/starred?per_page=100&page=${page}'
   );
 
-  let stargazers = 0;
-  let stars = starsGiven.length;
+  let totalStars = 0;
+  let starredRepos = starsGiven.length;
 
   for (let i = 0; i < userRepos.length; i++) {
-    stargazers += userRepos[i].stargazers_count;
+    totalStars += userRepos[i].stargazers_count;
   }
 
   const text = dedent`## Hello There 👋, I'm Ohmrrr
@@ -57,11 +56,11 @@ const updateFile = async () => {
     name: '${userData.name}',
     bio: ${userData.bio},
     repositories: ${userRepos.length},
-    totalStargazers: ${stargazers},
-    stars: ${stars},
+    totalStars: ${totalStars},
+    starredRepos: ${starredRepos},
     followers: ${userData.followers},
     following: ${userData.following},
-    created: '08/19/21',
+    created: '08/19/21'
   };
   \`\`\`
   `;
