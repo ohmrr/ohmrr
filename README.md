@@ -17,6 +17,7 @@ Hopefully there'll be more in the future.
 <img align="left" width="30px" alt="Visual Studio Code" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/vscode/vscode-original.svg" />
 <img align="left" width="30px" alt="Yarn" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/yarn/yarn-original.svg" />
 <br />
+<br />
 
 ### My Stats
 
@@ -25,13 +26,10 @@ Hopefully there'll be more in the future.
 
 ```js
 const Ohmrrr = {
-  name: "Omar",
+  name: 'Omar',
   bio: null,
-  repositories: {{ REPOSITORIES }}
-  commits: {{ COMMITS }},
-  stars: {{ STARS }}
   followers: 1,
   following: 3,
-  created: "08/19/21",
+  created: '08/19/21',
 };
 ```

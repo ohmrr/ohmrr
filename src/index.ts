@@ -1,5 +1,6 @@
 import fetchData from './fetchData';
 import dedent from 'dedent';
+import moment from 'moment';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -7,6 +8,7 @@ const readMe = path.join(__dirname, '..', 'README.md');
 
 const updateFile = async () => {
   const data = await fetchData('https://api.github.com/users/Ohmrrr');
+  const testData = await fetchData('https://api.github.com/users/Ohmrrr/repos');
 
   const text = dedent`## Hello There 👋, I'm Ohmrrr
 
@@ -27,24 +29,23 @@ const updateFile = async () => {
   <img align="left" width="30px" alt="Visual Studio Code" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/vscode/vscode-original.svg" />
   <img align="left" width="30px" alt="Yarn" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/yarn/yarn-original.svg" />
   <br />
+  <br />
 
   ### My Stats
 
   [![My Stats](https://github-readme-stats.vercel.app/api?username=Ohmrrr&theme=dark)](https://github.com/Ohmrrr)
   <br />
-  
+
   \`\`\`js
   const Ohmrrr = {
-    name: "${data.name}",
+    name: '${data.name}',
     bio: ${data.bio},
-    repositories: {{ REPOSITORIES }}
-    commits: {{ COMMITS }},
-    stars: {{ STARS }}
     followers: ${data.followers},
     following: ${data.following},
-    created: "08/19/21",
+    created: '08/19/21',
   };
-  \`\`\``;
+  \`\`\`
+  `;
 
   fs.writeFileSync(readMe, text);
 };

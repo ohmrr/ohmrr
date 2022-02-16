@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const fetchData = async (url: string) => {
-  const result: Record<string, unknown> = (await axios.get(url)).data;
+  const result = (await axios.get(url)).data;
 
   return result;
 };
