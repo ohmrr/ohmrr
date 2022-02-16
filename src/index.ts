@@ -15,11 +15,15 @@ const updateFile = async () => {
   const userRepos: GitRepo[] = await fetchData(
     'https://api.github.com/users/Ohmrrr/repos'
   );
+  const starsGiven: GitRepo[] = await fetchData(
+    'https://api.github.com/users/Ohmrrr/starred?per_page=100&page=${page}'
+  );
 
-  let stars = 0;
+  let stargazers = 0;
+  let stars = starsGiven.length;
 
   for (let i = 0; i < userRepos.length; i++) {
-    stars += userRepos[i].stargazers_count;
+    stargazers += userRepos[i].stargazers_count;
   }
 
   const text = dedent`## Hello There 👋, I'm Ohmrrr
@@ -53,7 +57,8 @@ const updateFile = async () => {
     name: '${userData.name}',
     bio: ${userData.bio},
     repositories: ${userRepos.length},
-    stars: ${stars}
+    totalStargazers: ${stargazers},
+    stars: ${stars},
     followers: ${userData.followers},
     following: ${userData.following},
     created: '08/19/21',
