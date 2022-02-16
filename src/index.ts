@@ -1,4 +1,6 @@
 import fetchData from './fetchData';
+import { GitUser } from './Interfaces/GitUser';
+import { GitRepo } from './Interfaces/GitRepo';
 import dedent from 'dedent';
 import moment from 'moment';
 import * as path from 'path';
@@ -7,8 +9,18 @@ import * as fs from 'fs';
 const readMe = path.join(__dirname, '..', 'README.md');
 
 const updateFile = async () => {
-  const data = await fetchData('https://api.github.com/users/Ohmrrr');
-  const testData = await fetchData('https://api.github.com/users/Ohmrrr/repos');
+  const userData: GitUser = await fetchData(
+    'https://api.github.com/users/Ohmrrr'
+  );
+  const userRepos: GitRepo[] = await fetchData(
+    'https://api.github.com/users/Ohmrrr/repos'
+  );
+
+  let stars = 0;
+
+  for (let i = 0; i < userRepos.length; i++) {
+    stars += userRepos[i].stargazers_count;
+  }
 
   const text = dedent`## Hello There 👋, I'm Ohmrrr
 
@@ -38,10 +50,12 @@ const updateFile = async () => {
 
   \`\`\`js
   const Ohmrrr = {
-    name: '${data.name}',
-    bio: ${data.bio},
-    followers: ${data.followers},
-    following: ${data.following},
+    name: '${userData.name}',
+    bio: ${userData.bio},
+    repositories: ${userRepos.length},
+    stars: ${stars}
+    followers: ${userData.followers},
+    following: ${userData.following},
     created: '08/19/21',
   };
   \`\`\`
