@@ -28,7 +28,7 @@ Hopefully there'll be more in the future.
 const Ohmrrr = {
   name: 'Omar',
   bio: null,
-  repositories: 2,
+  repositories: 3,
   totalStargazers: 2,
   stars: 12,
   followers: 1,
