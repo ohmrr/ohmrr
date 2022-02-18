@@ -1,11 +1,13 @@
 import fetchData from './fetchData';
 import { GitUser } from './Interfaces/GitUser';
 import { GitRepo } from './Interfaces/GitRepo';
+import moment from 'moment';
 import dedent from 'dedent';
 import * as path from 'path';
 import * as fs from 'fs';
 
 const readMe = path.join(__dirname, '..', 'README.md');
+const date = moment(Date.now()).format('MMMM Do, YYYY');
 
 const updateFile = async () => {
   const userData: GitUser = await fetchData(
@@ -63,6 +65,9 @@ const updateFile = async () => {
     created: '08/19/21'
   };
   \`\`\`
+
+  <br />
+  Last updated on ${date} 🤯
   `;
 
   fs.writeFileSync(readMe, text);

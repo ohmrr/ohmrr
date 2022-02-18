@@ -36,3 +36,6 @@ const Ohmrrr = {
   created: '08/19/21'
 };
 ```
+
+<br />
+Last updated on February 17th, 2022 🤯
