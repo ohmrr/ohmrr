@@ -15,7 +15,7 @@ jobs:
         run: |
           cd ${GITHUB_WORKSPACE}
           npm install -g yarn
-          yarn add
+          yarn install
           yarn build
       - name: 2️⃣ Run Transpiled Code
         run: |
