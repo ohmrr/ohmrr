@@ -1,0 +1,21 @@
+name: Update
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: 1️⃣ Transpile TypeScript
+        run: |
+            cd ${GITHUB_WORKSPACE}
+            npm install
+            npm run build
+      - name: 2️⃣ Run Transpiled Code
+        run: |
+          npm run start
