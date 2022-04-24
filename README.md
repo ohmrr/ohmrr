@@ -30,7 +30,7 @@ const Ohmrrr = {
   bio: null,
   repositories: 5,
   totalStars: 5,
-  starredRepos: 18,
+  starredRepos: 19,
   followers: 1,
   following: 3,
   created: '08/19/21'
@@ -38,4 +38,4 @@ const Ohmrrr = {
 ```
 
 <br />
-Last updated on April 17th, 2022 🤯
+Last updated on April 24th, 2022 🤯
