@@ -28,7 +28,7 @@ Hopefully there'll be more in the future.
 const Ohmrrr = {
   name: 'Omar',
   bio: null,
-  repositories: 5,
+  repositories: 6,
   totalStars: 5,
   starredRepos: 19,
   followers: 1,
@@ -38,4 +38,4 @@ const Ohmrrr = {
 ```
 
 <br />
-Last updated on June 15th, 2022 🤯
+Last updated on June 30th, 2022 🤯
