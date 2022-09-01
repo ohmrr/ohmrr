@@ -38,4 +38,4 @@ const Ohmrrr = {
 ```
 
 <br />
-Last updated on August 30th, 2022 🤯
+Last updated on September 1st, 2022 🤯
