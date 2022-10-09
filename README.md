@@ -28,14 +28,14 @@ Hopefully there'll be more in the future.
 const Ohmrrr = {
   name: 'Omar',
   bio: null,
-  repositories: 5,
-  totalStars: 5,
-  starredRepos: 19,
-  followers: 1,
-  following: 3,
+  repositories: 6,
+  totalStars: 7,
+  starredRepos: 25,
+  followers: 4,
+  following: 5,
   created: '08/19/21'
 };
 ```
 
 <br />
-Last updated on May 1st, 2022 🤯
+Last updated on October 1st, 2022 🤯
