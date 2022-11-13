@@ -27,10 +27,10 @@ Hopefully there'll be more in the future.
 ```js
 const Ohmrrr = {
   name: 'Omar',
-  bio: null,
+  bio: 'High school student programming for fun.',
   repositories: 6,
-  totalStars: 7,
-  starredRepos: 28,
+  totalStars: 8,
+  followedRepos: 30,
   followers: 4,
   following: 5,
   created: '08/19/21'
@@ -38,4 +38,4 @@ const Ohmrrr = {
 ```
 
 <br />
-Last updated on October 30th, 2022 🤯
+Last updated on November 13th, 2022 🤯
