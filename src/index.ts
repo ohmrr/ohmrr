@@ -56,10 +56,10 @@ const updateFile = async () => {
   \`\`\`js
   const Ohmrrr = {
     name: '${userData.name}',
-    bio: ${userData.bio},
+    bio: '${userData.bio}',
     repositories: ${userRepos.length},
     totalStars: ${totalStars},
-    starredRepos: ${starredRepos},
+    followedRepos: ${starredRepos},
     followers: ${userData.followers},
     following: ${userData.following},
     created: '08/19/21'
