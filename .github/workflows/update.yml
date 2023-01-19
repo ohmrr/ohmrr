@@ -13,15 +13,15 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3.5.1
         with:
-          node-version: 18.x
+          node-version: 16.19.0
       - name: 1️⃣ Transpile TypeScript
         run: |
           cd ${GITHUB_WORKSPACE}
-          npm install --no-package-lock
-          npm run build
+          yarn
+          yarn build
       - name: 2️⃣ Run Transpiled Code
         run: |
-          npm run start
+          yarn start
       - name: 3️⃣ Version Control
         run: |
           git config user.name "${GITHUB_ACTOR}"
