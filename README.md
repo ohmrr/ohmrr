@@ -27,15 +27,15 @@ Hopefully there'll be more in the future.
 ```js
 const Ohmrrr = {
   name: 'Omar',
-  bio: 'High school student programming for fun.',
-  repositories: 6,
+  bio: 'Programming for fun.',
+  repositories: 7,
   totalStars: 8,
-  followedRepos: 31,
-  followers: 4,
-  following: 5,
+  followedRepos: 45,
+  followers: 5,
+  following: 7,
   created: '08/19/21'
 };
 ```
 
 <br />
-Last updated on November 15th, 2022 🤯
+Last updated on January 19th, 2023 🤯
