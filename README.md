@@ -29,13 +29,13 @@ const Ohmrrr = {
   name: 'Omar',
   bio: 'Programming for fun.',
   repositories: 7,
-  totalStars: 8,
-  followedRepos: 45,
-  followers: 5,
-  following: 7,
+  totalStars: 7,
+  followedRepos: 44,
+  followers: 4,
+  following: 6,
   created: '08/19/21'
 };
 ```
 
 <br />
-Last updated on January 19th, 2023 🤯
+Last updated on January 30th, 2023 🤯
