@@ -30,7 +30,7 @@ const Ohmrrr = {
   bio: 'Programming for fun.',
   repositories: 7,
   totalStars: 7,
-  followedRepos: 44,
+  followedRepos: 45,
   followers: 4,
   following: 6,
   created: '08/19/21'
@@ -38,4 +38,4 @@ const Ohmrrr = {
 ```
 
 <br />
-Last updated on January 30th, 2023 🤯
+Last updated on February 15th, 2023 🤯
