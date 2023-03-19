@@ -1,4 +1,4 @@
-## Hello There 👋, I'm Ohmrrr
+## Hello There 👋, I'm Omar
 
 I'm slightly new to GitHub but I'm on here to improve my skills and share my work.
 I primarily use JavaScript and TypeScript, but I'm still learning. So far, I've worked on:
@@ -9,10 +9,11 @@ I primarily use JavaScript and TypeScript, but I'm still learning. So far, I've 
 
 Hopefully there'll be more in the future.
 
-### Languages and Technologies
+### Languages, Frameworks, and Technologies
 
 <img align="left" width="30px" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/javascript/javascript-original.svg" />
 <img align="left" width="30px" alt="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/typescript/typescript-original.svg" />
+<img align="left" width="30px" alt="Svelte" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/svelte/svelte-original.svg" />
 <img align="left" width="30px" alt="Bash" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/bash/bash-original.svg" />
 <img align="left" width="30px" alt="Visual Studio Code" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/vscode/vscode-original.svg" />
 <img align="left" width="30px" alt="Yarn" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/yarn/yarn-original.svg" />
@@ -38,4 +39,4 @@ const Ohmrrr = {
 ```
 
 <br />
-Last updated on March 15th, 2023 🤯
+Last updated on March 19th, 2023 🤯
