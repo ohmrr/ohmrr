@@ -1,4 +1,4 @@
-## Hello There 👋, I'm Omar
+## Hello There 👋, I'm Ohmrrr
 
 I'm slightly new to GitHub but I'm on here to improve my skills and share my work.
 I primarily use JavaScript and TypeScript, but I'm still learning. So far, I've worked on:
@@ -31,7 +31,7 @@ const Ohmrrr = {
   bio: 'Programming for fun.',
   repositories: 7,
   totalStars: 7,
-  followedRepos: 49,
+  followedRepos: 51,
   followers: 4,
   following: 6,
   created: '08/19/21'
@@ -39,4 +39,4 @@ const Ohmrrr = {
 ```
 
 <br />
-Last updated on March 19th, 2023 🤯
+Last updated on March 30th, 2023 🤯
