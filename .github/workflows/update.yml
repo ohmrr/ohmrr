@@ -17,8 +17,8 @@ jobs:
       - name: 1️⃣ Transpile TypeScript
         run: |
           cd ${GITHUB_WORKSPACE}
-          yarn
-          yarn build
+          pnpm i
+          pnpm build
       - name: 2️⃣ Run Transpiled Code
         run: |
           yarn start
