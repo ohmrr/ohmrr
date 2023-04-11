@@ -1,11 +1,15 @@
 ## Hello There 👋, I'm Omar
 
-I'm slightly new to GitHub but I'm on here to improve my skills and share my work.
-I primarily use JavaScript and TypeScript, but I'm still learning. So far, I've worked on:
 
-- [eTOA-001](https://github.com/Ohmrrr/etoa-bot) - a Discord bot made with Discord.js v13 in JavaScript. 
+I'm a High School student just learning to program for fun. I primarily do Web Development with JavaScript, TypeScript, Svelte, Tailwind CSS and more. Here are some of the projects I've worked on:
 
-[![eTOA](https://github-readme-stats.vercel.app/api/pin/?username=Ohmrrr&repo=etoa-bot&show_owner=true&theme=dark)](https://github.com/Ohmrrr/etoa-bot)
+- [CSFHS](https://github.com/estebangarcia21/csfhs) - My school's computer science pathway website, made with TypeScript, Svelte, and Tailwind CSS.
+
+[![CSFHS](https://github-readme-stats.vercel.app/api/pin/?username=estebangarcia21&repo=csfhs&show_owner=false&theme=dark)](https://github.com/estebangarcia21/csfhs)
+
+- [dotfiles](https://github.com/ohmrr/dotfiles) - My shell configuration files for zsh, nvim, git, and more.
+
+[![dotfiles](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=dotfiles&show_owner=true&theme=dark)](https://github.com/ohmrr/dotfiles)
 
 Hopefully there'll be more in the future.
 
