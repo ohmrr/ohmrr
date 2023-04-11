@@ -26,7 +26,7 @@ Hopefully there'll be more in the future.
 
 ### My Stats
 
-[![My Stats](https://github-readme-stats.vercel.app/api?username=Ohmrrr&theme=dark)](https://github.com/Ohmrrr)
+[![My Stats](https://github-readme-stats.vercel.app/api?username=ohmrr&theme=dark)](https://github.com/ohmrr)
 <br />
 
 ```js
