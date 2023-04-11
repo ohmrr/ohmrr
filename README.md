@@ -1,4 +1,4 @@
-## Hello There 👋, I'm Ohmrrr
+## Hello There 👋, I'm Omar
 
 I'm slightly new to GitHub but I'm on here to improve my skills and share my work.
 I primarily use JavaScript and TypeScript, but I'm still learning. So far, I've worked on:
