@@ -48,5 +48,7 @@ jspm_packages/
 .env.production.local
 .env.local
 
+# Etc
 .DS_Store
 package-lock.json
+yarn.lock
