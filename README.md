@@ -10,10 +10,6 @@ I'm a High School student just learning to program for fun. I primarily do Web D
 
 [![dotfiles](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=dotfiles&show_owner=true&theme=dark)](https://github.com/ohmrr/dotfiles)
 
-- [quabos](https://github.com/ohmrr/quabos) - A Discord bot made with DiscordJS v13, TypeScript, and MongoDB that uses markov chaining to generate new responses from previous messages.
-
-[![quabos](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=quabos&show_owner=true&theme=dark)](https://github.com/ohmrr/quabos)
-
 I hope to keep adding more projects to my portfolio 💯
 
 ### Languages, Frameworks, and Technologies
