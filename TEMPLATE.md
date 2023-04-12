@@ -32,7 +32,7 @@ const Omar = {
   },
   totalCommits: {{ COMMITS }},
   pullRequests: {{ PULL_REQUESTS }},
-  codeReviews: {{ CODE_REVIEWS }}
+  codeReviews: {{ CODE_REVIEWS }},
   issues: {{ ISSUES }},
   stars: {{ STARS }},
   created: "08/19/21"
