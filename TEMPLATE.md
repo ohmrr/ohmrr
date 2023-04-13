@@ -1,6 +1,30 @@
-## Hello, I'm Omar 💯
+# Hello There 👋, I'm Omar
 
-I'm a high school student just programming for fun. I primarily do Web Development with JavaScript, TypeScript, Svelte, Tailwind CSS and more. Here are some of the projects I've worked on:
+```js
+const ohmrr = {
+  name: "Omar",
+  bio: "Programming for fun.",
+  repositories: {
+    owned: {{ REPOSITORIES }},
+    contributedTo: {{ REPOSITORIES_CONTRIBUTED_TO }}
+  },
+  pullRequests: {{ PULL_REQUESTS }},
+  codeReviews: {{ CODE_REVIEWS }},
+  totalCommits: {{ COMMITS }},
+  stars: {{ STARS }},
+  followers: 4,
+  following: 5,
+  location: "California, USA",
+  created: "August 19th, 2021"
+}
+```
+
+<br />
+
+## 📚 About Me
+
+Currently I'm a high school student just programming for fun. I primarily work on Web Development with JavaScript, TypeScript, and Svelte. More recently, I've been learning Python and Java.
+I hope to post more projects onto GitHub, but until then here are some that I've worked on:
 
 <br />
 
@@ -16,25 +40,8 @@ I'm a high school student just programming for fun. I primarily do Web Developme
 
 <br />
 
-### My Stats
+## 📊 Stats
 
-[![My Stats](https://github-readme-stats.vercel.app/api?username=ohmrr&theme=dark)](https://github.com/ohmrr)
+[![ohmrr's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohmrr&show_icons=true&theme=dark)](
 
-<br />
-
-```js
-const Omar = {
-  name: "Omar",
-  bio: "Programming for fun.",
-  repositories: {
-    created: {{ REPOSITORIES }},
-    contributedTo: {{ REPOSITORIES_CONTRIBUTED_TO }}
-  },
-  totalCommits: {{ COMMITS }},
-  pullRequests: {{ PULL_REQUESTS }},
-  codeReviews: {{ CODE_REVIEWS }},
-  issues: {{ ISSUES }},
-  stars: {{ STARS }},
-  created: "08/19/21"
-}
-```
+Last updated on April 12th, 2023 🙌

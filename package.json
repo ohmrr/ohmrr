@@ -1,0 +1,16 @@
+{
+  "name": "ohmrr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dedent": "^0.7.0",
+    "moment": "^2.29.4"
+  }
+}
