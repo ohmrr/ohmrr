@@ -57,11 +57,11 @@ const updateFile = async (user) => {
 
     ## 📊 Stats
 
-    [![${userData.login}'s GitHub stats](https://github-readme-stats.vercel.app/api?username=${userData.login}&show_icons=true&theme=dark)](
+    [![${userData.login}'s GitHub stats](https://github-readme-stats.vercel.app/api?username=${userData.login}&show_icons=true&theme=dark)](https://github.com/${userData.login})
 
     <br />
     <br />
-    
+
     Last updated on ${date} ${randomEmoji}`;
 
   fs.writeFileSync(template, updatedText);
