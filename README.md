@@ -6,7 +6,7 @@ const ohmrr = {
   bio: "Programming for fun.",
   repositories: {
     owned: 12,
-    contributedTo: 3
+    contributedTo: 2
   },
   pullRequests: 11,
   codeReviews: 4,
