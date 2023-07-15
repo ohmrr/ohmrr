@@ -10,7 +10,7 @@ const ohmrr = {
   },
   pullRequests: 11,
   codeReviews: 4,
-  totalCommits: 345,
+  totalCommits: 284,
   stars: 6,
   followers: 4,
   following: 5,
