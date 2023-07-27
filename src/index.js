@@ -7,9 +7,9 @@ const template = path.join(__dirname, "..", "TEMPLATE.md");
 const date = moment(new Date()).format("MMMM Do, YYYY");
 const emojis = ["🙌", "😎", "💯", "👽", "🔮", "🤙", "‼️", "✅"];
 
-const updateFile = async (user) => {
+const updateFile = async () => {
   const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
-  const userData = await fetch(`https://api.github.com/users/${user}`).then(
+  const userData = await fetch(`https://api.github.com/users/ohmrr`).then(
     (res) => res.json()
   );
 
@@ -67,4 +67,4 @@ const updateFile = async (user) => {
   fs.writeFileSync(template, updatedText);
 };
 
-updateFile("ohmrr");
+updateFile();

@@ -42,6 +42,6 @@ I hope to post more projects onto GitHub, but until then here are some that I've
 
 ## 📊 Stats
 
-[![ohmrr's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohmrr&show_icons=true&theme=dark)](
+[![ohmrr's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohmrr&show_icons=true&theme=dark)]
 
 Last updated on April 12th, 2023 🙌
