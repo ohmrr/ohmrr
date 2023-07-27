@@ -6,12 +6,12 @@ const ohmrr = {
   bio: "Programming for fun.",
   repositories: {
     owned: 12,
-    contributedTo: 4
+    contributedTo: 2
   },
-  pullRequests: 7,
-  codeReviews: 3,
-  totalCommits: 354,
-  stars: 8,
+  pullRequests: 11,
+  codeReviews: 4,
+  totalCommits: 284,
+  stars: 6,
   followers: 4,
   following: 5,
   location: "California, USA",
