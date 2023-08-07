@@ -1,4 +1,4 @@
-name: 'Template to Readme'
+name: "Template to Readme"
 
 on:
   push:
@@ -10,26 +10,25 @@ on:
 jobs:
   generate-markdown:
     runs-on: ubuntu-latest
-    container: node:18
     steps:
-    - uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-    - name: Update TEMPLATE.md
-      run: |
-        node --version
-        npm i
-        npm start
-    - name: Generate README.md
-      uses: teoxoy/profile-readme-stats@v2
-      with:
-        token: ${{ secrets.USER_TOKEN }}
-    - name: Update README.md
-      run: |
-        if [[ "$(git status --porcelain)" != "" ]]; then
-        git config user.name gh-actions[bot]
-        git config user.email 89240639+gh-actions[bot]@users.noreply.github.com
-        git add .
-        git commit -m "Update README from TEMPLATE"
-        git push
-        fi
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Update TEMPLATE.md
+        run: |
+          node --version
+          npm i
+          npm start
+      - name: Generate README.md
+        uses: teoxoy/profile-readme-stats@v2
+        with:
+          token: ${{ secrets.USER_TOKEN }}
+      - name: Update README.md
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+          git config user.name gh-actions[bot]
+          git config user.email 89240639+gh-actions[bot]@users.noreply.github.com
+          git add .
+          git commit -m "Update README from TEMPLATE"
+          git push
+          fi
