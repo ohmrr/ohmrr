@@ -3,7 +3,7 @@
 ```js
 const ohmrr = {
   name: "Omar",
-  bio: "Programming for fun.",
+  bio: "Programming, for fun.",
   repositories: {
     owned: {{ REPOSITORIES }},
     contributedTo: {{ REPOSITORIES_CONTRIBUTED_TO }}
@@ -15,7 +15,7 @@ const ohmrr = {
   followers: 4,
   following: 5,
   location: "Sacramento, CA",
-  created: "August 19th, 2021"
+  created: "August 20th, 2021"
 }
 ```
 
@@ -47,4 +47,4 @@ I hope to post more projects onto GitHub, but until then here are some that I've
 <br />
 <br />
 
-Last updated on July 27th, 2023 🙌
+Last updated on August 7th, 2023 👽
