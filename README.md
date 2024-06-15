@@ -10,9 +10,9 @@ const ohmrr = {
   },
   pullRequests: 15,
   codeReviews: 4,
-  totalCommits: 300,
+  totalCommits: 307,
   stars: 6,
-  followers: 6,
+  followers: 7,
   following: 6,
   location: "Sacramento, CA",
   created: "August 20th, 2021"
@@ -47,4 +47,4 @@ I hope to post more projects onto GitHub, but until then here are some that I've
 <br />
 <br />
 
-Last updated on May 30th, 2024 👽
+Last updated on June 15th, 2024 😎
