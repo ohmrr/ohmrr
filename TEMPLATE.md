@@ -47,4 +47,4 @@ I hope to post more projects onto GitHub, but until then here are some that I've
 <br />
 <br />
 
-Last updated on June 30th, 2024 💯
+Last updated on July 15th, 2024 ✅
