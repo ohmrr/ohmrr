@@ -5,15 +5,15 @@ const ohmrr = {
   name: "Omar",
   bio: "Programming, for fun.",
   repositories: {
-    owned: 10,
+    owned: 11,
     contributedTo: 1
   },
-  pullRequests: 23,
-  codeReviews: 6,
-  totalCommits: 414,
-  stars: 7,
+  pullRequests: 25,
+  codeReviews: 7,
+  totalCommits: 464,
+  stars: 8,
   followers: 6,
-  following: 6,
+  following: 7,
   location: "Sacramento, CA",
   created: "August 20th, 2021"
 }
@@ -47,4 +47,4 @@ I hope to post more projects onto GitHub, but until then here are some that I've
 <br />
 <br />
 
-Last updated on October 30th, 2024 ✅
+Last updated on November 15th, 2024 ‼️
