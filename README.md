@@ -8,9 +8,9 @@ const ohmrr = {
     owned: 11,
     contributedTo: 1
   },
-  pullRequests: 25,
+  pullRequests: 28,
   codeReviews: 7,
-  totalCommits: 464,
+  totalCommits: 530,
   stars: 8,
   followers: 6,
   following: 7,
@@ -47,4 +47,4 @@ I hope to post more projects onto GitHub, but until then here are some that I've
 <br />
 <br />
 
-Last updated on November 15th, 2024 ‼️
+Last updated on November 30th, 2024 ‼️
