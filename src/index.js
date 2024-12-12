@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const template = path.join(__dirname, "..", "TEMPLATE.md");
 const date = moment(new Date()).format("MMMM Do, YYYY");
-const emojis = ["🙌", "😎", "💯", "👽", "🔮", "🤙", "‼️", "✅"];
+const emojis = ["🙌", "😎", "💯", "👽", "🔮", "🤙", "‼️", "✅", "💻"];
 
 const updateFile = async () => {
   const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
@@ -13,7 +13,7 @@ const updateFile = async () => {
     (res) => res.json()
   );
 
-  const updatedText = dedent`# Hello There 👋, I'm ${userData.name}
+  const updatedText = dedent`# Hi, I'm ${userData.name}
 
     \`\`\`js
     const ${userData.login} = {
@@ -33,36 +33,39 @@ const updateFile = async () => {
       created: "${moment(userData.created_at).format("MMMM Do, YYYY")}"
     }
     \`\`\`
-    
-    <br />
 
-    ## 📚 About Me
+    ## 🌃 About Me
 
-    Currently I'm a high school student just programming for fun. I primarily work on Web Development with JavaScript, TypeScript, and Svelte. More recently, I've been learning Python and Java.
-    I hope to post more projects onto GitHub, but until then here are some that I've worked on:
+    I'm currently a second year Computer Science major. I have experience working with TypeScript, JavaScript, C++, Java, SvelteKit, TailwindCSS, MongoDB, PrismaORM. While I mostly specialize in Web Development, I'm always working on learning more languages and frameworks.
 
-    <br />
+    ## 💻 Projects
 
-    - [csfhs](https://github.com/estebangarcia21/csfhs) - My school's computer science pathway website, made with TypeScript, Svelte, and Tailwind CSS.
+    ### 🤝 Fund Tawheed
 
-    [![csfhs](https://github-readme-stats.vercel.app/api/pin/?username=estebangarcia21&repo=csfhs&show_owner=false&theme=dark)](https://github.com/estebangarcia21/csfhs)
+    Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a construction project. The website is made with **TypeScript, SvelteKit, and TailwindCSS**. 
 
-    <br />
+    [![fund-tawheed](https://github-readme-stats.vercel.app/api/pin/?username=${userData.login}&repo=tawheed-website&show_owner=false&theme=dark)](https://github.com/${userData.login}/tawheed-website)
 
-    - [dotfiles](https://github.com/${userData.login}/dotfiles) - My shell configuration files for zsh, nvim, git, and more.
+    ### 👽 Quabos
 
-    [![dotfiles](https://github-readme-stats.vercel.app/api/pin/?username=${userData.login}&repo=dotfiles&show_owner=true&theme=dark)](https://github.com/${userData.login}/dotfiles)
+    A Discord.js v14 bot that uses **TypeScript, MongoDB, and PrismaORM** for type safety and scalability. The bot uses messages previously sent in a server to generate new ones using a Markov chaining algorithm. Currently running 24/7 while entirely self hosted on a computer running Ubuntu server.
 
-    <br />
+    [![quabos](https://github-readme-stats.vercel.app/api/pin/?username=${userData.login}&repo=quabos&show_owner=false&theme=dark)](https://github.com/${userData.login}/quabos)
 
-    ## 📊 Stats
+    ### 🏫 CSFHS
+
+    A website I worked on in collaboration with the STEAM Computer Science pathway for my high school. The website aims to get more students interested in Computer Science as an educational and career path. Created with **TypeScript, SvelteKit, and TailwindCSS**.
+
+    [![csfhs](https://github-readme-stats.vercel.app/api/pin/?username=nurikimchi&repo=csfhs&show_owner=false&theme=dark)](https://github.com/nurikimchi/csfhs)
+
+    ## 📊 GitHub Stats
 
     [![${userData.login}'s GitHub stats](https://github-readme-stats.vercel.app/api?username=${userData.login}&show_icons=true&theme=dark)](https://github.com/${userData.login})
 
     <br />
     <br />
 
-    Last updated on ${date} ${randomEmoji}`;
+    Automatically updated on ${date} ${randomEmoji}`;
 
   fs.writeFileSync(template, updatedText);
 };

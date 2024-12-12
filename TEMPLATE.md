@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Omar
+# Hi, I'm Omar
 
 ```js
 const ohmrr = {
@@ -13,7 +13,7 @@ const ohmrr = {
   totalCommits: {{ COMMITS }},
   stars: {{ STARS }},
   followers: 6,
-  following: 7,
+  following: 10,
   location: "Sacramento, CA",
   created: "August 20th, 2021"
 }
@@ -43,7 +43,6 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 
 [![csfhs](https://github-readme-stats.vercel.app/api/pin/?username=nurikimchi&repo=csfhs&show_owner=false&theme=dark)](https://github.com/nurikimchi/csfhs)
 
-
 ## 📊 GitHub Stats
 
 [![ohmrr's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohmrr&show_icons=true&theme=dark)](https://github.com/ohmrr)
@@ -51,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on ${date} ${randomEmoji}
+Automatically updated on December 12th, 2024 😎
