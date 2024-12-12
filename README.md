@@ -10,7 +10,7 @@ const ohmrr = {
   },
   pullRequests: 28,
   codeReviews: 7,
-  totalCommits: 555,
+  totalCommits: 556,
   stars: 8,
   followers: 6,
   following: 10,
@@ -35,7 +35,7 @@ Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a 
 
 A Discord.js v14 bot that uses **TypeScript, MongoDB, and PrismaORM** for type safety and scalability. The bot uses messages previously sent in a server to generate new ones using a Markov chaining algorithm. Currently running 24/7 while entirely self hosted on a computer running Ubuntu server.
 
-[![quabos](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=quabos&show_owner=false&theme=dark)](https://github.com/ohmrr/quabos)
+[![quabos](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=quabos-discord&show_owner=false&theme=dark)](https://github.com/ohmrr/quabos-discord)
 
 ### 🏫 CSFHS
 
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on December 12th, 2024 🙌
+Automatically updated on December 12th, 2024 💯
