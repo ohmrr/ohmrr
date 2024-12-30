@@ -13,7 +13,7 @@ const ohmrr = {
   totalCommits: {{ COMMITS }},
   stars: {{ STARS }},
   followers: 6,
-  following: 10,
+  following: 12,
   location: "Sacramento, CA",
   created: "August 20th, 2021"
 }
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on December 15th, 2024 🤙
+Automatically updated on December 30th, 2024 🤙
