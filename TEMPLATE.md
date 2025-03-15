@@ -12,7 +12,7 @@ const ohmrr = {
   codeReviews: {{ CODE_REVIEWS }},
   totalCommits: {{ COMMITS }},
   stars: {{ STARS }},
-  followers: 8,
+  followers: 10,
   following: 13,
   location: "Sacramento, CA",
   created: "August 20th, 2021"
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on February 15th, 2025 🔮
+Automatically updated on March 15th, 2025 💯
