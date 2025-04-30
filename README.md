@@ -5,14 +5,14 @@ const ohmrr = {
   name: "Omar",
   bio: "Programming, for fun.",
   repositories: {
-    owned: 11,
+    owned: 12,
     contributedTo: 0
   },
   pullRequests: 39,
   codeReviews: 7,
-  totalCommits: 640,
+  totalCommits: 646,
   stars: 17,
-  followers: 11,
+  followers: 10,
   following: 13,
   location: "Sacramento, CA",
   created: "August 20th, 2021"
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on April 15th, 2025 🙌
+Automatically updated on April 30th, 2025 👽
