@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on June 15th, 2025 💻
+Automatically updated on June 30th, 2025 🙌
