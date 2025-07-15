@@ -1,21 +1,21 @@
-# Hi, I'm Omar
+# Hi, I'm undefined
 
 ```js
-const ohmrr = {
-  name: "Omar",
-  bio: "Programming, for fun.",
+const undefined = {
+  name: "undefined",
+  bio: "undefined",
   repositories: {
-    owned: 13,
+    owned: 16,
     contributedTo: 0
   },
   pullRequests: 39,
   codeReviews: 7,
-  totalCommits: 653,
+  totalCommits: 662,
   stars: 17,
-  followers: 10,
-  following: 13,
-  location: "Sacramento, CA",
-  created: "August 20th, 2021"
+  followers: undefined,
+  following: undefined,
+  location: "undefined",
+  created: "July 15th, 2025"
 }
 ```
 
@@ -29,13 +29,13 @@ I'm currently a second year Computer Science major. I have experience working wi
 
 Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a construction project. The website is made with **TypeScript, SvelteKit, and TailwindCSS**. 
 
-[![fund-tawheed](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=tawheed-website&show_owner=false&theme=dark)](https://github.com/ohmrr/tawheed-website)
+[![fund-tawheed](https://github-readme-stats.vercel.app/api/pin/?username=undefined&repo=tawheed-website&show_owner=false&theme=dark)](https://github.com/undefined/tawheed-website)
 
 ### 👽 Quabos
 
 A Discord.js v14 bot that uses **TypeScript, MongoDB, and PrismaORM** for type safety and scalability. The bot uses messages previously sent in a server to generate new ones using a Markov chaining algorithm. Currently running 24/7 while entirely self hosted on a computer running Ubuntu server.
 
-[![quabos](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=quabos-discord&show_owner=false&theme=dark)](https://github.com/ohmrr/quabos-discord)
+[![quabos](https://github-readme-stats.vercel.app/api/pin/?username=undefined&repo=quabos-discord&show_owner=false&theme=dark)](https://github.com/undefined/quabos-discord)
 
 ### 🏫 CSFHS
 
@@ -45,9 +45,9 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 
 ## 📊 GitHub Stats
 
-[![ohmrr's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohmrr&show_icons=true&theme=dark)](https://github.com/ohmrr)
+[![undefined's GitHub stats](https://github-readme-stats.vercel.app/api?username=undefined&show_icons=true&theme=dark)](https://github.com/undefined)
 
 <br />
 <br />
 
-Automatically updated on June 30th, 2025 🙌
+Automatically updated on July 15th, 2025 🔮
