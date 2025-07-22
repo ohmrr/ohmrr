@@ -11,14 +11,14 @@ jobs:
   generate-markdown:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
         with:
           fetch-depth: 0
       - name: Update TEMPLATE.md
         run: |
-          node --version
-          npm i
-          npm start
+          bun install
+          bun start
       - name: Generate README.md
         uses: teoxoy/profile-readme-stats@v2
         with:
