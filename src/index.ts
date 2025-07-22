@@ -1,3 +1,4 @@
+import type { HeadersInit } from "bun";
 import moment from "moment";
 
 interface GitHubUser {
@@ -11,25 +12,35 @@ interface GitHubUser {
 }
 
 const fetchGitHubUser = async (username: string) => {
-  const response = await fetch(`https://api.github.com/users/${username}`);
+  const token = process.env.USER_TOKEN || null;
+
+  const headers: HeadersInit = {
+    Accept: "application/vnd.github+json",
+    "User-Agent": "GitHub-Profile-Updater",
+  };
+
+  if (token) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+
+  const response = await fetch(`https://api.github.com/users/${username}`, {});
   if (!response.ok) {
-    throw new Error('Unable to fetch GitHub user information.');
+    throw new Error("Unable to fetch GitHub user information.");
   }
 
   const userData = (await response.json()) as GitHubUser;
   return userData;
-}
+};
 
 const username = "ohmrr";
 const now = moment(new Date()).format("MMMM Do, YYYY");
-const userData = await fetchGitHubUser(username)
-const templateFile = Bun.file("TEMPLATE.md")
+const userData = await fetchGitHubUser(username);
+const templateFile = Bun.file("TEMPLATE.md");
 
 const emojis = ["🚀", "✨", "💯", "🔥", "🤖", "🪄"];
 const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
 
-const updatedText =
-`# Hi, I'm ${userData.name}
+const updatedText = `# Hi, I'm ${userData.name}
 
 \`\`\`js
 const ${userData.login} = {

@@ -27,7 +27,7 @@ I'm currently a second year Computer Science major. I have experience working wi
 
 ### 🤝 Fund Tawheed
 
-Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a construction project. The website is made with **TypeScript, SvelteKit, and TailwindCSS**. 
+Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a construction project. The website is made with **TypeScript, SvelteKit, and TailwindCSS**.
 
 [![fund-tawheed](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=tawheed-website&show_owner=false&theme=dark)](https://github.com/ohmrr/tawheed-website)
 
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on July 20th, 2025 __TEST__
+Automatically updated on July 20th, 2025 **TEST**
