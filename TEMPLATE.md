@@ -1,6 +1,6 @@
 # Hi, I'm Omar
 
-```js
+```ts
 const ohmrr = {
   name: "Omar",
   bio: "Programming, for fun.",
@@ -15,7 +15,7 @@ const ohmrr = {
   followers: 10,
   following: 14,
   location: null,
-  created: "August 19th, 2021"
+  created: "August 20th, 2021"
 }
 ```
 
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on July 21st, 2025 🚀
+Automatically updated on July 26th, 2025 🤖
