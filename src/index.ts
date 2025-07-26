@@ -23,7 +23,7 @@ const fetchGitHubUser = async (username: string) => {
     headers["Authorization"] = `Bearer ${token}`;
   }
 
-  const response = await fetch(`https://api.github.com/users/${username}`, {});
+  const response = await fetch(`https://api.github.com/users/${username}`);
   if (!response.ok) {
     throw new Error("Unable to fetch GitHub user information.");
   }
@@ -42,7 +42,7 @@ const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
 
 const updatedText = `# Hi, I'm ${userData.name}
 
-\`\`\`js
+\`\`\`ts
 const ${userData.login} = {
   name: "${userData.name}",
   bio: "${userData.bio === null ? "" : userData.bio}",
