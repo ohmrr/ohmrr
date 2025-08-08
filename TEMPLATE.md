@@ -21,7 +21,7 @@ const ohmrr = {
 
 ## 🌃 About Me
 
-I'm currently a second year Computer Science major. I have experience working with TypeScript, JavaScript, C++, Java, SvelteKit, TailwindCSS, MongoDB, PrismaORM. While I mostly specialize in Web Development, I'm always working on learning more languages and frameworks.
+I'm currently a third year Computer Science major. I have experience working with TypeScript, JavaScript, C++, Java, SvelteKit, TailwindCSS, MongoDB, PrismaORM. While I mostly specialize in Web Development, I'm always working on learning more languages and frameworks.
 
 ## 💻 Projects
 
@@ -31,7 +31,7 @@ Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a 
 
 [![fund-tawheed](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=tawheed-website&show_owner=false&theme=dark)](https://github.com/ohmrr/tawheed-website)
 
-### 👽 Quabos
+### 🤖 Quabos
 
 A Discord.js v14 bot that uses **TypeScript, MongoDB, and PrismaORM** for type safety and scalability. The bot uses messages previously sent in a server to generate new ones using a Markov chaining algorithm. Currently running 24/7 while entirely self hosted on a computer running Ubuntu server.
 
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on August 7th, 2025 💯
+Automatically updated on August 8th, 2025 🚀
