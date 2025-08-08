@@ -1,21 +1,21 @@
-# Hi, I'm Omar
+# 👋 Hello there
 
 ```ts
 const ohmrr = {
-  name: "Omar",
+  name: "Omar Sadat",
   bio: "Programming, for fun.",
-  repositories: {
-    owned: {{ REPOSITORIES }},
-    contributedTo: {{ REPOSITORIES_CONTRIBUTED_TO }}
+  stats: {
+    repositories: {
+      owned: {{ REPOSITORIES }},
+      contributedTo: {{ REPOSITORIES_CONTRIBUTED_TO }},
+    },
+    commits: {{ COMMITS }},
+    pullRequests: {{ PULL_REQUESTS }},
+    codeReviews: {{ CODE_REVIEWS }},
+    stars: {{ STARS }},
+    followers: 11,
+    following: 15,
   },
-  pullRequests: {{ PULL_REQUESTS }},
-  codeReviews: {{ CODE_REVIEWS }},
-  totalCommits: {{ COMMITS }},
-  stars: {{ STARS }},
-  followers: 10,
-  following: 14,
-  location: null,
-  created: "August 20th, 2021"
 }
 ```
 
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on July 26th, 2025 🤖
+Automatically updated on August 7th, 2025 💯
