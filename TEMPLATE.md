@@ -13,7 +13,7 @@ const ohmrr = {
     pullRequests: {{ PULL_REQUESTS }},
     codeReviews: {{ CODE_REVIEWS }},
     stars: {{ STARS }},
-    followers: 12,
+    followers: 13,
     following: 16,
   },
 }
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on November 15th, 2025 🚀
+Automatically updated on December 15th, 2025 🤖
