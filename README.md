@@ -14,7 +14,7 @@ const ohmrr = {
     codeReviews: 7,
     stars: 14,
     followers: 13,
-    following: 16,
+    following: 17,
   },
 }
 ```
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on January 15th, 2026 🔥
+Automatically updated on January 30th, 2026 💯
