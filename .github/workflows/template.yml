@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - profile/*.svg
   schedule:
     - cron: "0 0 15,30 * *"
 

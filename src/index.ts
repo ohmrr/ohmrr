@@ -27,7 +27,6 @@ const fetchGitHubUser = async (username: string) => {
   }
 
   const userData = (await response.json()) as GitHubUser;
-  console.log(userData)
   return userData;
 };
 
@@ -70,23 +69,23 @@ I'm currently a third year Computer Science major. I have experience working wit
 
 Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a construction project. The website is made with **TypeScript, SvelteKit, and TailwindCSS**. 
 
-[![fund-tawheed](https://github-readme-stats.vercel.app/api/pin/?username=${userData.login}&repo=tawheed-website&show_owner=false&theme=dark)](https://github.com/${userData.login}/tawheed-website)
+[![fund-tawheed](./profile/fund-tawheed-stats.svg)](https://github.com/${userData.login}/tawheed-website)
 
 ### 🤖 Quabos
 
 A Discord.js v14 bot that uses **TypeScript, MongoDB, and PrismaORM** for type safety and scalability. The bot uses messages previously sent in a server to generate new ones using a Markov chaining algorithm. Currently running 24/7 while entirely self hosted on a computer running Ubuntu server.
 
-[![quabos](https://github-readme-stats.vercel.app/api/pin/?username=${userData.login}&repo=quabos-discord&show_owner=false&theme=dark)](https://github.com/${userData.login}/quabos-discord)
+[![quabos-discord](./profile/quabos-discord-stats.svg)](https://github.com/${userData.login}/quabos-discord)
 
 ### 🏫 CSFHS
 
 A website I worked on in collaboration with the STEAM Computer Science pathway for my high school. The website aims to get more students interested in Computer Science as an educational and career path. Created with **TypeScript, SvelteKit, and TailwindCSS**.
 
-[![csfhs](https://github-readme-stats.vercel.app/api/pin/?username=nurikimchi&repo=csfhs&show_owner=false&theme=dark)](https://github.com/nurikimchi/csfhs)
+[![csfhs](./profile/csfhs-stats.svg)](https://github.com/nurikimchi/csfhs)
 
 ## 📊 GitHub Stats
 
-[![${userData.login}'s GitHub stats](https://github-readme-stats.vercel.app/api?username=${userData.login}&show_icons=true&theme=dark)](https://github.com/${userData.login})
+[![${userData.login}'s GitHub stats](./profile/github-stats.svg)](https://github.com/${userData.login})
 
 <br />
 <br />

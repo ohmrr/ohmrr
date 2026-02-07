@@ -1,0 +1,56 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 15,30 * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate github stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=ohmrr&show_icons=true&theme=dark
+          path: profile/github-stats.svg
+          token: ${{ secrets.USER_TOKEN }}
+
+      - name: Fund Tawheed stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=ohmrr&show_icons=true&theme=dark
+          path: profile/fund-tawheed-stats.svg
+          token: ${{ secrets.USER_TOKEN }}
+
+      - name: Quabos Discord stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=ohmrr&show_icons=true&theme=dark
+          path: profile/quabos-discord-stats.svg
+          token: ${{ secrets.USER_TOKEN }}
+
+      - name: CSFHS stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=nurikimchi&hide_owner=true&show_icons=true&theme=dark
+          path: profile/csfhs-stats.svg
+          token: ${{ secrets.USER_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "gh-actions[bot]"
+          git config user.email "89240639+gh-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README stats cards" || exit 0
+          git push
