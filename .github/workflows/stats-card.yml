@@ -27,7 +27,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=ohmrr&show_icons=true&theme=dark
+          options: username=ohmrr&repo=fund-tawheed&show_icons=true&theme=dark
           path: profile/fund-tawheed-stats.svg
           token: ${{ secrets.USER_TOKEN }}
 
@@ -35,7 +35,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=ohmrr&show_icons=true&theme=dark
+          options: username=ohmrr&repo=quabos-discord&show_icons=true&theme=dark
           path: profile/quabos-discord-stats.svg
           token: ${{ secrets.USER_TOKEN }}
 
@@ -43,7 +43,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=nurikimchi&hide_owner=true&show_icons=true&theme=dark
+          options: username=nurikimchi&repo=csfhs&hide_owner=true&show_icons=true&theme=dark
           path: profile/csfhs-stats.svg
           token: ${{ secrets.USER_TOKEN }}
 
