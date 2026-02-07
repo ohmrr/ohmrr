@@ -6,10 +6,10 @@ const ohmrr = {
   bio: "Programming, for fun.",
   stats: {
     repositories: {
-      owned: 24,
+      owned: 23,
       contributedTo: 0,
     },
-    commits: 513,
+    commits: 514,
     pullRequests: 44,
     codeReviews: 7,
     stars: 14,
@@ -29,25 +29,25 @@ I'm currently a third year Computer Science major. I have experience working wit
 
 Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a construction project. The website is made with **TypeScript, SvelteKit, and TailwindCSS**. 
 
-[![fund-tawheed](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=tawheed-website&show_owner=false&theme=dark)](https://github.com/ohmrr/tawheed-website)
+[![fund-tawheed](./profile/fund-tawheed-stats.svg)](https://github.com/ohmrr/tawheed-website)
 
 ### 🤖 Quabos
 
 A Discord.js v14 bot that uses **TypeScript, MongoDB, and PrismaORM** for type safety and scalability. The bot uses messages previously sent in a server to generate new ones using a Markov chaining algorithm. Currently running 24/7 while entirely self hosted on a computer running Ubuntu server.
 
-[![quabos](https://github-readme-stats.vercel.app/api/pin/?username=ohmrr&repo=quabos-discord&show_owner=false&theme=dark)](https://github.com/ohmrr/quabos-discord)
+[![quabos-discord](./profile/quabos-discord-stats.svg)](https://github.com/ohmrr/quabos-discord)
 
 ### 🏫 CSFHS
 
 A website I worked on in collaboration with the STEAM Computer Science pathway for my high school. The website aims to get more students interested in Computer Science as an educational and career path. Created with **TypeScript, SvelteKit, and TailwindCSS**.
 
-[![csfhs](https://github-readme-stats.vercel.app/api/pin/?username=nurikimchi&repo=csfhs&show_owner=false&theme=dark)](https://github.com/nurikimchi/csfhs)
+[![csfhs](./profile/csfhs-stats.svg)](https://github.com/nurikimchi/csfhs)
 
 ## 📊 GitHub Stats
 
-[![ohmrr's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohmrr&show_icons=true&theme=dark)](https://github.com/ohmrr)
+[![ohmrr's GitHub stats](./profile/github-stats.svg)](https://github.com/ohmrr)
 
 <br />
 <br />
 
-Automatically updated on January 30th, 2026 💯
+Automatically updated on February 7th, 2026 💯
