@@ -27,7 +27,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=ohmrr&repo=fund-tawheed&show_icons=true&theme=dark
+          options: username=ohmrr&repo=tawheed-website&show_icons=true&theme=dark
           path: profile/fund-tawheed-stats.svg
           token: ${{ secrets.USER_TOKEN }}
 
