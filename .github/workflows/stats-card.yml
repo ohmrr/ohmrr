@@ -26,7 +26,7 @@ jobs:
       - name: Fund Tawheed stats
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: stats
+          card: pin
           options: username=ohmrr&repo=fund-tawheed&show_icons=true&theme=dark
           path: profile/fund-tawheed-stats.svg
           token: ${{ secrets.USER_TOKEN }}
@@ -34,7 +34,7 @@ jobs:
       - name: Quabos Discord stats
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: stats
+          card: pin
           options: username=ohmrr&repo=quabos-discord&show_icons=true&theme=dark
           path: profile/quabos-discord-stats.svg
           token: ${{ secrets.USER_TOKEN }}
@@ -42,7 +42,7 @@ jobs:
       - name: CSFHS stats
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: stats
+          card: pin
           options: username=nurikimchi&repo=csfhs&hide_owner=true&show_icons=true&theme=dark
           path: profile/csfhs-stats.svg
           token: ${{ secrets.USER_TOKEN }}
