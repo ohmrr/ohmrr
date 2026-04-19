@@ -75,7 +75,7 @@ Made in collaboration with Masjid Al-Tawheed in order to help raise funds for a 
 
 A Discord.js v14 bot that uses **TypeScript, MongoDB, and PrismaORM** for type safety and scalability. The bot uses messages previously sent in a server to generate new ones using a Markov chaining algorithm. Currently running 24/7 while entirely self hosted on a computer running Ubuntu server.
 
-[![quabos-discord](./profile/quabos-discord-stats.svg)](https://github.com/${userData.login}/quabos-discord)
+[![quabos-discord-old](./profile/quabos-discord-old-stats.svg)](https://github.com/${userData.login}/quabos-discord-old)
 
 ### 🏫 CSFHS
 

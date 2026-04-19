@@ -13,7 +13,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Generate github stats
         uses: readme-tools/github-readme-stats-action@v1
@@ -35,8 +35,8 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=ohmrr&repo=quabos-discord&show_icons=true&theme=dark
-          path: profile/quabos-discord-stats.svg
+          options: username=ohmrr&repo=quabos-discord-old&show_icons=true&theme=dark
+          path: profile/quabos-discord-old-stats.svg
           token: ${{ secrets.USER_TOKEN }}
 
       - name: CSFHS stats
