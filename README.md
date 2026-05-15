@@ -6,14 +6,14 @@ const ohmrr = {
   bio: "Programming, for fun.",
   stats: {
     repositories: {
-      owned: 25,
-      contributedTo: 0,
+      owned: 26,
+      contributedTo: 1,
     },
-    commits: 616,
-    pullRequests: 55,
+    commits: 661,
+    pullRequests: 60,
     codeReviews: 7,
-    stars: 12,
-    followers: 13,
+    stars: 13,
+    followers: 14,
     following: 20,
   },
 }
@@ -50,4 +50,4 @@ A website I worked on in collaboration with the STEAM Computer Science pathway f
 <br />
 <br />
 
-Automatically updated on April 30th, 2026 🤖
+Automatically updated on May 15th, 2026 🪄
