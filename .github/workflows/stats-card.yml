@@ -23,30 +23,6 @@ jobs:
           path: profile/github-stats.svg
           token: ${{ secrets.USER_TOKEN }}
 
-      - name: Fund Tawheed stats
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=ohmrr&repo=tawheed-website&show_icons=true&theme=dark
-          path: profile/fund-tawheed-stats.svg
-          token: ${{ secrets.USER_TOKEN }}
-
-      - name: Quabos Discord stats
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=ohmrr&repo=quabos-discord-old&show_icons=true&theme=dark
-          path: profile/quabos-discord-old-stats.svg
-          token: ${{ secrets.USER_TOKEN }}
-
-      - name: CSFHS stats
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=nurikimchi&repo=csfhs&hide_owner=true&show_icons=true&theme=dark
-          path: profile/csfhs-stats.svg
-          token: ${{ secrets.USER_TOKEN }}
-
       - name: Commit cards
         run: |
           git config user.name "gh-actions[bot]"
