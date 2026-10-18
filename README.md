@@ -19,10 +19,10 @@ const omar = {
         "AWS"
     ],
     github: {
-        commits: 1069,
+        commits: 1129,
         pullRequests: 71,
-        codeReviews: 7,
-        starsEarned: 14
+        codeReviews: 6,
+        starsEarned: 13
     },
 };
 ```
@@ -35,4 +35,4 @@ I'm a Computer Science student at Sacramento State with software engineering exp
 
 [![ohmrr's GitHub stats](./profile/github-stats.svg)](https://github.com/ohmrr)
 
-Automatically updated on October 11th, 2026 🔥
+Automatically updated on October 18th, 2026 ✨
